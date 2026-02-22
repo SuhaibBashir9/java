@@ -1,3 +1,4 @@
+package Basics;
 import java.util.Scanner;
 public class celciusFarenhiet {
     public static void main(String[] args) {

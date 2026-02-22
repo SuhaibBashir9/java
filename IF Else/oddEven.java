@@ -11,5 +11,6 @@ public class oddEven {
         } else {
             System.out.println(num + " is Odd.");
         }
+        sc.close();
     }
 }
