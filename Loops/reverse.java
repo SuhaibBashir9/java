@@ -20,5 +20,6 @@ public class reverse {
         } while (initailNum > 0);
 
             System.out.println(reversedNum);
+            sc.close();
     }
 }
