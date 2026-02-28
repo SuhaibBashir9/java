@@ -18,6 +18,7 @@ public class prime {
     public static void findPrime(int num){
           if (num <= 1) {
             System.out.println(num + " is not a Prime Number.");
+            return;
         }
 
         for (int i = 2; i < Math.sqrt(num); i++) {
