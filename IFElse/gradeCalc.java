@@ -2,7 +2,7 @@ package IFElse;
 
 
 import java.util.*;
-public class gradeCalc {
+public class GradeCalc {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -18,16 +18,16 @@ public class gradeCalc {
         double finalMarks = (sci + math + cs) /3;
 
         if (finalMarks >= 90) {
-            System.out.println(finalMarks +"% : Grade A");
+            System.out.println(finalMarks +" % : Grade A");
         } 
         else if (finalMarks < 90 && finalMarks >= 75) {
-            System.out.println(finalMarks +"% : Grade B");
+            System.out.println(finalMarks +" % : Grade B");
         } 
         else if (finalMarks < 75 && finalMarks >= 55) {
-            System.out.println(finalMarks +"% : Grade C");
+            System.out.println(finalMarks +" % : Grade C");
         } 
         else {
-            System.out.println(finalMarks +"% : FAILED!!!");
+            System.out.println(finalMarks +" % : FAILED!!!");
         }
         sc.close();
     }

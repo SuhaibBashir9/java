@@ -3,7 +3,7 @@ package IFElse;
 
 import java.util.*;
 
-public class largestNumber {
+public class LargestNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter num1: ");

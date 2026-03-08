@@ -6,6 +6,7 @@ public class CountOccurances {
         countOccurances();
     }
 
+
     public static void countOccurances(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of an Array:");
@@ -33,4 +34,5 @@ public class CountOccurances {
 
 
     }
+}
 }

@@ -3,7 +3,7 @@ package IFElse;
 
 import java.util.*;
 
-public class vowelConsonant{
+public class VowelConsonant{
     public static void main(String[] args) {
         String vowels = "aeiou";
         Scanner sc = new Scanner(System.in);

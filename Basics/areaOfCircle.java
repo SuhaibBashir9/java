@@ -1,7 +1,8 @@
 package Basics;
 import java.util.Scanner;
 
-public class AreaOfCIrcle{
+public class AreaOfCircle {
+    
     public static void main(String[] args) {
         final double pi = 3.14;
         
@@ -15,5 +16,4 @@ public class AreaOfCIrcle{
         System.out.println("The Area of Circle is " + area);
 
     }
-    
 }

@@ -1,7 +1,7 @@
 package Basics;
 import java.util.*;
 
-public class bmi {
+public class Bmi {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Weight in KG: ");
@@ -16,12 +16,19 @@ public class bmi {
         System.out.println("BMI = " + bmi);
 
         if(bmi < 18.5){
+
             System.out.println("Category : Light Weight");
+
         } else if (bmi >= 18.5 && bmi < 25) {
+
             System.out.println("Category: Normal Weight");
+
         } else if (bmi >= 25 && bmi > 30) {
+
             System.out.println("Category:  OverWeight");
+
         } else{
+            
             System.out.println("Category: Obese");
         }
         

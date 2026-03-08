@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 // Did this but had the confusion in how to run the loop from 2 to sart of n , so had a little help from copilot
 
-public class prime {
+public class Prime {
     public static void main(String[] args) {
         Scanner sc = new Scanner( System.in);
         System.out.println(" Enter the Value of num : ");

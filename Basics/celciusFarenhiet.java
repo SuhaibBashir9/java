@@ -1,6 +1,6 @@
 package Basics;
 import java.util.Scanner;
-public class celciusFarenhiet {
+public class CelciusFarenhiet {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
